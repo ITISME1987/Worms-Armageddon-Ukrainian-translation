@@ -1747,177 +1747,107 @@ MATCHEND_H_RESULTS            "Це нагороди, які видали."
 MATCHEND_H_DETAILS            "Деталі гри."
 MATCHEND_H_WINNER             "Переможець гри."
 
-#TODO #: Untranslated string
-#TODO # Map editor
 
-#TODO LEVEL_HELP_JOIN               "An outline of the current terrain."
-#TODO #: Untranslated string
-#TODO LEVEL_HELP_HOST               "Left click to generate a new terrain; Right click to edit one; Shift+Click to backtrack."
-#TODO #: Untranslated string
-#TODO H_OPENLEVELTEXT               "These thumbnails generate island terrains."
-#TODO #: Untranslated string
-#TODO H_CAVERNLEVELTEXT             "These thumbnails generate cavern terrains."
-#TODO #: Untranslated string
-#TODO H_OPENLEVELTEXTSTR            "ISLAND TEMPLATES"
-#TODO #: Untranslated string
-#TODO H_CAVERNLEVELTEXTSTR          "CAVERN TEMPLATES"
-#TODO #: Untranslated string
-#TODO H_UNDO                        "Undo the last change to your custom level."
-#TODO #: Untranslated string
-#TODO H_LEVELNAME                   "Select a terrain to load, or type a terrain code."
-#TODO #: Untranslated string
-#TODO H_SAVE                        "Save this terrain."
-#TODO #: Untranslated string
-#TODO H_DELETE                      "Delete this terrain."
-#TODO #: Untranslated string
-#TODO H_BRIDGES                     "Left click to increase the number of bridges on the terrain. Right click to decrease."
-#TODO #: Untranslated string
-#TODO H_OBJECTS                     "Left click to increase the number of objects on the terrain. Right click to decrease."
-#TODO #: Untranslated string
-#TODO H_TERRAINTHUMBNAIL
-#TODO 	"Left click to generate a new terrain; Right click to edit it;\n"
-#TODO 	"Shift+Click to backtrack."
-#TODO #: Untranslated string
-#TODO H_WATERLEVEL                  "Click or drag to raise and lower the water level."
-#TODO #: Untranslated string
-#TODO H_DRAWING
-#TODO 	"Left mouse button paints; right mouse button erases.\n"
-#TODO 	"Alt=fine tune, Ctrl=constrain, Shift+click=draw line"
-#TODO #: Untranslated string
-#TODO H_SOIL                        "Select the soil and background for your custom level."
-#TODO #: Untranslated string
-#TODO H_INVERT                      "Click to invert the landscape."
-#TODO #: Untranslated string
-#TODO H_BORDERS
-#TODO 	"Click to turn the indestructible border on or off.\n"
-#TODO 	"Right click to toggle the top cavern border."
-#TODO #: Untranslated string
-#TODO H_TUNNELS                     "Click to draw a tunnel system in the terrain."
-#TODO #: Untranslated string
-#TODO H_HOLES                       "Click to draw holes in the terrain."
-#TODO #: Untranslated string
-#TODO H_IMPORT                      "Click to import a custom terrain."
-#TODO #: Untranslated string
-#TODO H_EDITMODE
-#TODO 	"Click to preview this terrain.\n"
-#TODO 	"Right Click to convert to a colour map."
-#TODO #: Untranslated string
-#TODO H_BRUSHSIZE                   "Left click to increase brush size. Right click to decrease it."
-#TODO #: Untranslated string
-#TODO H_EDITMODE2
-#TODO 	"Click to return to edit mode.\n"
-#TODO 	"Right Click to convert to a colour map."
-#TODO #: Untranslated string
-#TODO H_CLEAR                       "Left click to clear the terrain. Right click to solid fill."
-#TODO #: Untranslated string
-#TODO H_FILL                        "Left click to fill a solid area. Right click to clear it."
-#TODO #: Untranslated string
-#TODO H_GENERATE                    "Click to generate a level based on the text entered."
-#TODO #: Untranslated string
-#TODO H_TOPBORDERTOOLTIP            "This terrain will behave like a cavern."
-#TODO #: Untranslated string
-#TODO H_MAPEDEXIT                   "Exit from the terrain editor."
-#TODO #: Untranslated string
-#TODO H_RESEED
-#TODO 	"Change placement of objects, bridges\n"
-#TODO 	"and holes. Shift+click to backtrack."
-#TODO #: Untranslated string
-#TODO H_MAP_DETAIL_SLIDER
-#TODO 	"Drag to adjust complexity range for all map generation\n"
-#TODO 	"(currently \1% - \2%). Hold Shift to drag both ends."
-#TODO #: Untranslated string
-#TODO RESEED                        "Reseed"
-#TODO #: Untranslated string
-#TODO SHRINKORCROP                  "Your image is larger than the terrain area. Would you like to shrink or crop the image?"
-#TODO #: Untranslated string
-#TODO SHRINK                        "Shrink"
-#TODO #: Untranslated string
-#TODO CROP                          "Crop"
-#TODO #: Untranslated string
-#TODO COLOURMODE
-#TODO 	"Click to remove the colour from this map.\n"
-#TODO 	"Right Click to toggle Worm Placement Holes."
-#TODO #: New string
-#TODO CM_MAP_TRANSPARENCY_TITLE     "Ambiguous Transparency"
-#TODO #: New string
-#TODO CM_MAP_TRANSPARENCY_MESSAGE   "This image file contains transparency information but no pixels are identified as being transparent. Treat the first black in the palette as transparent instead (as was always done before W:A v3.8)?"
-#TODO #: Untranslated string
-#TODO CM_DELETE_MAP_TITLE           "Delete map?"
-#TODO #: Untranslated string
-#TODO CM_DELETE_MAP_MESSAGE         "Are you sure you wish to delete the map \"\1\"?"
-#TODO #: Untranslated string
-#TODO CM_OVERWRITE_MAP_TITLE        "Overwrite map?"
-#TODO #: Untranslated string
-#TODO CM_OVERWRITE_MAP_MESSAGE      "Are you sure you wish to overwrite the map \"\1\"?"
-#TODO #: Untranslated string
-#TODO LOADINGIMAGE                  "Loading image, please wait..."
-#TODO #: Untranslated string
-#TODO REDUCINGCOLOURS               "Colour reduction process, please wait..."
-#TODO #: Untranslated string
-#TODO RESAMPLINGIMAGE               "Resizing image, please wait"
-#TODO #: Untranslated string
-#TODO GENERATE                      "Generate"
-#TODO #: Untranslated string
-#TODO LOSECOLOUR                    "Switching to edit mode will lose all colour information. Are you sure you want to do this?"
-#TODO #: Untranslated string
-#TODO STRETCHORCENTRE               "Your image is smaller than the terrain area. Would you like to stretch or centre the image?"
-#TODO #: Untranslated string
-#TODO STRETCH                       "Stretch"
-#TODO #: Untranslated string
-#TODO CENTRE                        "Centre"
-#TODO #: Untranslated string
-#TODO MAPEDQUITTEXT                 "You have made changes; do you want to exit and lose the changes?"
-#TODO #: Untranslated string
-#TODO CHOOSESOIL                    "Choose the soil background for your custom level."
-#TODO #: Untranslated string
-#TODO HOLECOUNT                     "Change the maximum number of objects, bridges and holes that can be automatically placed on the map."
+# Map editor
 
-#TODO #: Untranslated string
-#TODO MAP_CAVERN_TOO_BIG            "A map that is wider than \1 pixels or taller than \2 pixels must be a cavern."
-#TODO #: Untranslated string
-#TODO MAP_TOO_MANY_COLOURS          "This map has too many colours, and must be dithered to \1 colours."
-#TODO #: Untranslated string
-#TODO MAP_PNG_ERROR                 "PNG Error"
-#TODO #: Untranslated string
-#TODO MAP_PNG_WARNING               "PNG Warning"
-#TODO #: Untranslated string
-#TODO MAP_UNRECOGNISED_FILE         "Invalid or unrecognised map file"
-#TODO #: Untranslated string
-#TODO MAP_OPEN_ERROR                "Error opening map file"
-#TODO #: Untranslated string
-#TODO MAP_INVALID_FILE              "Invalid map file"
-#TODO #: Untranslated string
-#TODO MAP_PREPARE_ERROR             "Error preparing to load map"
-#TODO #: Untranslated string
-#TODO MAP_LOAD_ERROR                "Error loading map"
-#TODO #: Untranslated string
-#TODO MAP_INVALID_PALETTE           "Invalid palette in map file"
-#TODO #: Untranslated string
-#TODO MAP_SIZE_WRONG                "Invalid map dimensions.\nMust be \1."
-#TODO #: Untranslated string
-#TODO MAP_SIZE_TOO_SMALL            "Invalid map dimensions.\nMust be at least \1."
-#TODO #: Untranslated string
-#TODO MAP_SIZE_TOO_BIG_CAVERN       "Invalid map dimensions.\nMust be \1 or smaller."
-#TODO #: Untranslated string
-#TODO MAP_SIZE_TOO_BIG_ISLAND       "Invalid island map dimensions.\nMust be \1 or smaller."
-#TODO #: Untranslated string
-#TODO MAP_SIZE_ODD                  "Invalid map dimensions.\nMust be divisible by \1."
+LEVEL_HELP_JOIN               "Контур цього ландшафту."
+LEVEL_HELP_HOST               "Ліва кнопка миші - генерація нового ландшафту; права - для його редагування; Shift+клік - крок назад."
+H_OPENLEVELTEXT               "Ці іконки відповідають за острівні мапи."
+H_CAVERNLEVELTEXT             "Ці іконки відповідають за печерні мапи."
+H_OPENLEVELTEXTSTR            "ШАБЛОНИ ОСТРОВІВ"
+H_CAVERNLEVELTEXTSTR          "ШАБЛОНИ ПЕЧЕР"
+H_UNDO                        "Скасувати останню зміну в цій користувацькій мапі."
+H_LEVELNAME                   "Обрати мапу для завантаження, або ввести код генерації."
+H_SAVE                        "Зберегти ландшафт."
+H_DELETE                      "Видалити цей ландшафт."
+H_BRIDGES                     "Ліва кнопка миші - збільшити кількість мостів на мапі. Права - для зменшення."
+H_OBJECTS                     "Ліва кнопка миші - збільшити кількість об'єктів на мапі. Права - для зменшення."
+H_TERRAINTHUMBNAIL
+	"Ліва кнопка миші - генерація нового ландшафту; права - для редагування;\n"
+	"Shift+клік - крок назад."
+H_WATERLEVEL                  "Натисніть чи потягніть для підняття/зниження рівню води."
+H_DRAWING
+	"Ліва кнопка миші = малювати; права - для стирання.\n"
+	"Alt=точне малювання, Ctrl=обмежене, Shift+клік=намалювати лінію"
+H_SOIL                        "Обрати ґрунт та задній фон вашої мапи."
+H_INVERT                      "Натисніть, аби інвертувати ландшфат."
+H_BORDERS
+	"Натисніть, аби увімкнути/вимкнути незнищенні межі.\n"
+	"Права кнопка миші - керування верхньою межею печери."
+H_TUNNELS                     "Натисніть, аби створити у ландшафті систему тунелів."
+H_HOLES                       "Натисніть, аби створити у ландшафті дірки."
+H_IMPORT                      "Натисніть, аби імпортувати користувацький ландшафт."
+H_EDITMODE
+	"Натисніть, аби переглянути ландшафт.\n"
+	"Права кнопка миші - перетворення на кольорову мапу."
+H_BRUSHSIZE                   "Ліва кнопка миші - збільшення розміру пензля. Права - зменшення."
+H_EDITMODE2
+	"Натисніть, аби повернутися до режиму редагування.\n"
+	"Права кнопка миші - перетворення на кольорову мапу."
+H_CLEAR                       "Ліва кнопка миші - очистити ландшафт. Права - заповнити."
+H_FILL                        "Ліва кнопка миші - заповнити замкнену ділянку. Права - очистити її."
+H_GENERATE                    "Натисніть, аби згенерувати мапу, основану на введеному тексті."
+H_TOPBORDERTOOLTIP            "Цей ландшафт є печерою."
+H_MAPEDEXIT                   "Вийти з редактора ландшафту."
+H_RESEED
+	"Змінює розміщення об'єктів, мостів\n"
+	"та дірок. Shift+клік - крок назад."
+H_MAP_DETAIL_SLIDER
+	"Тягніть, щоб підлаштувати діапазон складності для генерації усіх мап\n"
+	"(наразі \1% - \2%). Утримуйте Shift для того, аби тягнути обидва кінці."
+RESEED                        "Повторна генерація"
+SHRINKORCROP                  "Ваше зображення більше за ділянку ландшафту. Бажаєте його стиснути чи обрізати?"
+SHRINK                        "Стиснути"
+CROP                          "Обрізати"
+COLOURMODE
+	"Натисніть, аби вилучити колір з цієї мапи.\n"
+	"Права кнопка миші - керування дірками для черв'яків."
+CM_MAP_TRANSPARENCY_TITLE     "Неоднозначна прозорість"
+CM_MAP_TRANSPARENCY_MESSAGE   "Цей файл зображення містить інформацію про прозорість, але не має прозорих пікселів. Вважати чорний колір палітри прозорим (як воно зазвичай було до W:A v3.8)?"
+CM_DELETE_MAP_TITLE           "Видалити мапу?"
+CM_DELETE_MAP_MESSAGE         "Ви певні, що хочете видалити мапу \"\1\"?"
+CM_OVERWRITE_MAP_TITLE        "Перезаписати мапу?"
+CM_OVERWRITE_MAP_MESSAGE      "Ви певні, що хочете перезаписати мапу \"\1\"?"
+LOADINGIMAGE                  "Завантаження зображення, зачекайте..."
+REDUCINGCOLOURS               "Зменшення кількості кольорів, зачекайте..."
+RESAMPLINGIMAGE               "Зміна розміру зображення, зачекайте"
+GENERATE                      "Згенерувати"
+LOSECOLOUR                    "Перемикання на режим редагування зітре всю інформацію про колір. Ви певні, що хочете цього?"
+STRETCHORCENTRE               "Ваше зображення менше за ділянку ландшафту. Ви хочете його розтягнути чи відцентрувати?"
+STRETCH                       "Розтягнути"
+CENTRE                        "Відцентрувати"
+MAPEDQUITTEXT                 "Бажаєте вийти й не зберігати зміни?"
+CHOOSESOIL                    "Обрати задній фон ґрунту для вашої мапи."
+HOLECOUNT                     "Змінити максимальну кількість об'єктів, мостів та дірок, які можуть бути автоматично створеними на мапі."
 
-#TODO #: Untranslated string
-#TODO LARGE_MAP_WARNING_TITLE       "Large map warning"
-#TODO #: Untranslated string
-#TODO LARGE_MAP_WARNING_DIALOG
-#TODO 	"You are about to load a map with the dimensions \1. "
-#TODO 	"This will require approximately \2B of memory, "
-#TODO 	"with a peak usage of about \3B for processing. "
-#TODO 	"Proceed?"
-#TODO #: Untranslated string
-#TODO LARGE_MAP_WARNING
-#TODO 	"\1 colour map\n"
-#TODO 	"Approximate memory use:\n"
-#TODO 	"\2B / \3B peak\m"
-#TODO 	"Click here to accept map\n"
+MAP_CAVERN_TOO_BIG            "Мапа, ширша за \1 пікселів або вища за \2 мусить бути печерою."
+MAP_TOO_MANY_COLOURS          "У цієї мапи забагато кольорів, їхню кількість буде зменшено до \1."
+MAP_PNG_ERROR                 "Помилка PNG"
+MAP_PNG_WARNING               "Попередження PNG"
+MAP_UNRECOGNISED_FILE         "Некоректний або нерозпізнаний файл мапи"
+MAP_OPEN_ERROR                "Помилка відкриття файлу мапи"
+MAP_INVALID_FILE              "Некоректний файл мапи"
+MAP_PREPARE_ERROR             "Помилка підготовки завантаження мапи"
+MAP_LOAD_ERROR                "Помилка завантаження мапи"
+MAP_INVALID_PALETTE           "У файлі карти некоректна палітра"
+MAP_SIZE_WRONG                "Некоректні розміри мапи.\nМає бути \1."
+MAP_SIZE_TOO_SMALL            "Некоректні розміри мапи.\nМає бути як мінімум \1."
+MAP_SIZE_TOO_BIG_CAVERN       "Некоректні розміри мапи.\nМає бути \1 або менше."
+MAP_SIZE_TOO_BIG_ISLAND       "Некоректні розміри острівної мапи.\nМає бути \1 або менше."
+MAP_SIZE_ODD                  "Некоректні розміри мапи.\nВони мають ділитись на \1."
 
+LARGE_MAP_WARNING_TITLE       "Попередження великої мапи"
+LARGE_MAP_WARNING_DIALOG
+	"Ви збираєтесь завантажити мапу з розміром \1. "
+	"Для цього необхідно приблизно \2Б пам'яті, "
+	"а максимальне використання для обробки - \3Б. "
+	"Продовжити?"
+LARGE_MAP_WARNING
+	"Кольорова мапа \1\n"
+	"Приблизне використання пам'яті:\n"
+	"\2Б / \3Б маскимум\m"
+	"Натисніть, аби прийняти мапу\n"
+	
 #TODO #: Untranslated string
 #TODO # Network screen
 
